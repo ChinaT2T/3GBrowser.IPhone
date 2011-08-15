@@ -16,6 +16,7 @@
 	<array>
 		<string>logo5757.png</string>
 		<string>logo114x114.png</string>
+		<string>72-72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>3GBrowser.yuneb.com</string>
@@ -37,6 +38,8 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow-iPad</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

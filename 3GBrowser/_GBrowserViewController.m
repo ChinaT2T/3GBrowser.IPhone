@@ -12,6 +12,7 @@
 
 - (void)dealloc
 {
+    [m_status release];
     [super dealloc];
 }
 
@@ -30,6 +31,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    m_status.hidden = TRUE;
     m_homeUrl = @"http://m.3gcoo.net/index.htm#aa";
     m_searchUrl = @"http://m.3gcoo.net/i.jsp?st=1&wd=%@";
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
@@ -52,6 +54,8 @@
     m_loadingIndication = nil;
     [m_addressBox release];
     m_addressBox = nil;
+    [m_status release];
+    m_status = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -140,6 +144,7 @@
 
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
+    m_status.hidden = TRUE;
     NSLog(@"webViewDidStartLoad");
     [m_loadingIndication startAnimating];
     
@@ -147,12 +152,15 @@
 - (void)webViewDidFinishLoad:(UIWebView *)view
 {
     NSLog(@"webViewDidFinishLoad");
+    m_status.hidden = TRUE;
     [m_loadingIndication stopAnimating];
 }
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
     NSLog(@"webView didFailLoadWithError");
     [m_loadingIndication stopAnimating];
+    m_status.hidden = FALSE;
+    [m_status setText:[NSString stringWithFormat:@"加载页面错误:\n    %@\n建议:\n    %@", [error localizedDescription], [error localizedRecoverySuggestion]]];
 }
 
 @end
