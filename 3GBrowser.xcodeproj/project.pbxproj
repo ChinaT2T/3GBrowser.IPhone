@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188EC76E13F833CF005AA277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188EC76D13F833CF005AA277 /* UIKit.framework */; };
+		188EC77013F833CF005AA277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188EC76F13F833CF005AA277 /* Foundation.framework */; };
+		188EC77213F833CF005AA277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188EC77113F833CF005AA277 /* CoreGraphics.framework */; };
+		188EC77813F833CF005AA277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188EC77613F833CF005AA277 /* InfoPlist.strings */; };
+		188EC77B13F833CF005AA277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EC77A13F833CF005AA277 /* main.m */; };
+		188EC77E13F833CF005AA277 /* _GBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EC77D13F833CF005AA277 /* _GBrowserAppDelegate.m */; };
+		188EC78113F833CF005AA277 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EC77F13F833CF005AA277 /* MainWindow.xib */; };
+		188EC78413F833CF005AA277 /* _GBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EC78313F833CF005AA277 /* _GBrowserViewController.m */; };
+		188EC78713F833CF005AA277 /* _GBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188EC78513F833CF005AA277 /* _GBrowserViewController.xib */; };
+		188EC78E13F95D57005AA277 /* logo5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 188EC78D13F95D57005AA277 /* logo5757.png */; };
+		188EC79013F95D72005AA277 /* logo114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 188EC78F13F95D72005AA277 /* logo114x114.png */; };
+		188EC79213F95DC7005AA277 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 188EC79113F95DC7005AA277 /* Default.png */; };
+		188EC79513F95F1C005AA277 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188EC79313F95DF6005AA277 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188EC76913F833CF005AA277 /* 3GBrowser4.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3GBrowser4.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EC76D13F833CF005AA277 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188EC76F13F833CF005AA277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188EC77113F833CF005AA277 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188EC77513F833CF005AA277 /* 3GBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3GBrowser-Info.plist"; sourceTree = "<group>"; };
+		188EC77713F833CF005AA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188EC77913F833CF005AA277 /* 3GBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3GBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		188EC77A13F833CF005AA277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188EC77C13F833CF005AA277 /* _GBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _GBrowserAppDelegate.h; sourceTree = "<group>"; };
+		188EC77D13F833CF005AA277 /* _GBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _GBrowserAppDelegate.m; sourceTree = "<group>"; };
+		188EC78013F833CF005AA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		188EC78213F833CF005AA277 /* _GBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _GBrowserViewController.h; sourceTree = "<group>"; };
+		188EC78313F833CF005AA277 /* _GBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _GBrowserViewController.m; sourceTree = "<group>"; };
+		188EC78613F833CF005AA277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/_GBrowserViewController.xib; sourceTree = "<group>"; };
+		188EC78D13F95D57005AA277 /* logo5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo5757.png; sourceTree = "<group>"; };
+		188EC78F13F95D72005AA277 /* logo114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo114x114.png; sourceTree = "<group>"; };
+		188EC79113F95DC7005AA277 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		188EC79313F95DF6005AA277 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188EC76613F833CF005AA277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EC76E13F833CF005AA277 /* UIKit.framework in Frameworks */,
+				188EC77013F833CF005AA277 /* Foundation.framework in Frameworks */,
+				188EC77213F833CF005AA277 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188EC75E13F833CF005AA277 = {
+			isa = PBXGroup;
+			children = (
+				188EC79313F95DF6005AA277 /* Default@2x.png */,
+				188EC79113F95DC7005AA277 /* Default.png */,
+				188EC78F13F95D72005AA277 /* logo114x114.png */,
+				188EC78D13F95D57005AA277 /* logo5757.png */,
+				188EC77313F833CF005AA277 /* 3GBrowser */,
+				188EC76C13F833CF005AA277 /* Frameworks */,
+				188EC76A13F833CF005AA277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188EC76A13F833CF005AA277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188EC76913F833CF005AA277 /* 3GBrowser4.1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188EC76C13F833CF005AA277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188EC76D13F833CF005AA277 /* UIKit.framework */,
+				188EC76F13F833CF005AA277 /* Foundation.framework */,
+				188EC77113F833CF005AA277 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188EC77313F833CF005AA277 /* 3GBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				188EC77C13F833CF005AA277 /* _GBrowserAppDelegate.h */,
+				188EC77D13F833CF005AA277 /* _GBrowserAppDelegate.m */,
+				188EC77F13F833CF005AA277 /* MainWindow.xib */,
+				188EC78213F833CF005AA277 /* _GBrowserViewController.h */,
+				188EC78313F833CF005AA277 /* _GBrowserViewController.m */,
+				188EC78513F833CF005AA277 /* _GBrowserViewController.xib */,
+				188EC77413F833CF005AA277 /* Supporting Files */,
+			);
+			path = 3GBrowser;
+			sourceTree = "<group>";
+		};
+		188EC77413F833CF005AA277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188EC77513F833CF005AA277 /* 3GBrowser-Info.plist */,
+				188EC77613F833CF005AA277 /* InfoPlist.strings */,
+				188EC77913F833CF005AA277 /* 3GBrowser-Prefix.pch */,
+				188EC77A13F833CF005AA277 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188EC76813F833CF005AA277 /* 3GBrowser4.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3GBrowser4.1" */;
+			buildPhases = (
+				188EC76513F833CF005AA277 /* Sources */,
+				188EC76613F833CF005AA277 /* Frameworks */,
+				188EC76713F833CF005AA277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3GBrowser4.1;
+			productName = 3GBrowser;
+			productReference = 188EC76913F833CF005AA277 /* 3GBrowser4.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188EC76013F833CF005AA277 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 188EC76313F833CF005AA277 /* Build configuration list for PBXProject "3GBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188EC75E13F833CF005AA277;
+			productRefGroup = 188EC76A13F833CF005AA277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188EC76813F833CF005AA277 /* 3GBrowser4.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188EC76713F833CF005AA277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EC77813F833CF005AA277 /* InfoPlist.strings in Resources */,
+				188EC78113F833CF005AA277 /* MainWindow.xib in Resources */,
+				188EC78713F833CF005AA277 /* _GBrowserViewController.xib in Resources */,
+				188EC78E13F95D57005AA277 /* logo5757.png in Resources */,
+				188EC79013F95D72005AA277 /* logo114x114.png in Resources */,
+				188EC79213F95DC7005AA277 /* Default.png in Resources */,
+				188EC79513F95F1C005AA277 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188EC76513F833CF005AA277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EC77B13F833CF005AA277 /* main.m in Sources */,
+				188EC77E13F833CF005AA277 /* _GBrowserAppDelegate.m in Sources */,
+				188EC78413F833CF005AA277 /* _GBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188EC77613F833CF005AA277 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EC77713F833CF005AA277 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188EC77F13F833CF005AA277 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EC78013F833CF005AA277 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		188EC78513F833CF005AA277 /* _GBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EC78613F833CF005AA277 /* en */,
+			);
+			name = _GBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188EC78813F833CF005AA277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188EC78913F833CF005AA277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		188EC78B13F833CF005AA277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guonan Sun (CEBX695Z62)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guonan Sun (CEBX695Z62)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3GBrowser/3GBrowser-Prefix.pch";
+				INFOPLIST_FILE = "3GBrowser/3GBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C71CB35A-55B3-40D2-8A20-E460B02F24E8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C71CB35A-55B3-40D2-8A20-E460B02F24E8";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188EC78C13F833CF005AA277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GUO NAN SUN";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GUO NAN SUN";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3GBrowser/3GBrowser-Prefix.pch";
+				INFOPLIST_FILE = "3GBrowser/3GBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69562220-9816-4A65-9674-B047F811B9B1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69562220-9816-4A65-9674-B047F811B9B1";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188EC76313F833CF005AA277 /* Build configuration list for PBXProject "3GBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EC78813F833CF005AA277 /* Debug */,
+				188EC78913F833CF005AA277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3GBrowser4.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EC78B13F833CF005AA277 /* Debug */,
+				188EC78C13F833CF005AA277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188EC76013F833CF005AA277 /* Project object */;
+}
