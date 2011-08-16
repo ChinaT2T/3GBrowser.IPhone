@@ -15,7 +15,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "188EC76813F833CF005AA277"
                BuildableName = "3GBrowser4.1.app"
-               BlueprintName = "3GBrowser4.1"
+               BlueprintName = "3G&#27983;&#35272;&#22120;"
                ReferencedContainer = "container:3GBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,7 +42,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188EC76813F833CF005AA277"
             BuildableName = "3GBrowser4.1.app"
-            BlueprintName = "3GBrowser4.1"
+            BlueprintName = "3G&#27983;&#35272;&#22120;"
             ReferencedContainer = "container:3GBrowser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,7 +61,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188EC76813F833CF005AA277"
             BuildableName = "3GBrowser4.1.app"
-            BlueprintName = "3GBrowser4.1"
+            BlueprintName = "3G&#27983;&#35272;&#22120;"
             ReferencedContainer = "container:3GBrowser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

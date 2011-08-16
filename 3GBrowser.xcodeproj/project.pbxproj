@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		188EC76913F833CF005AA277 /* 3GBrowser4.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3GBrowser4.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EC76913F833CF005AA277 /* 3G浏览器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3G浏览器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188EC76D13F833CF005AA277 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		188EC76F13F833CF005AA277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		188EC77113F833CF005AA277 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,7 +85,7 @@
 		188EC76A13F833CF005AA277 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				188EC76913F833CF005AA277 /* 3GBrowser4.1.app */,
+				188EC76913F833CF005AA277 /* 3G浏览器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		188EC76813F833CF005AA277 /* 3GBrowser4.1 */ = {
+		188EC76813F833CF005AA277 /* 3G浏览器 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3GBrowser4.1" */;
+			buildConfigurationList = 188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3G浏览器" */;
 			buildPhases = (
 				188EC76513F833CF005AA277 /* Sources */,
 				188EC76613F833CF005AA277 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = 3GBrowser4.1;
+			name = "3G浏览器";
 			productName = 3GBrowser;
-			productReference = 188EC76913F833CF005AA277 /* 3GBrowser4.1.app */;
+			productReference = 188EC76913F833CF005AA277 /* 3G浏览器.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				188EC76813F833CF005AA277 /* 3GBrowser4.1 */,
+				188EC76813F833CF005AA277 /* 3G浏览器 */,
 			);
 		};
 /* End PBXProject section */
@@ -309,8 +309,8 @@
 				INFOPLIST_FILE = "3GBrowser/3GBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "69562220-9816-4A65-9674-B047F811B9B1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "69562220-9816-4A65-9674-B047F811B9B1";
+				PROVISIONING_PROFILE = "F0326E59-D0AC-45E8-A9EE-92F272402245";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F0326E59-D0AC-45E8-A9EE-92F272402245";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -327,16 +327,16 @@
 				188EC78913F833CF005AA277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3GBrowser4.1" */ = {
+		188EC78A13F833CF005AA277 /* Build configuration list for PBXNativeTarget "3G浏览器" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				188EC78B13F833CF005AA277 /* Debug */,
 				188EC78C13F833CF005AA277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
