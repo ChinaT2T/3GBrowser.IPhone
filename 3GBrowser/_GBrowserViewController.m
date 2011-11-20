@@ -160,7 +160,7 @@
     NSLog(@"webView didFailLoadWithError");
     [m_loadingIndication stopAnimating];
     m_status.hidden = FALSE;
-    [m_status setText:[NSString stringWithFormat:@"加载页面错误:\n    %@\n建议:\n    %@", [error localizedDescription], [error localizedRecoverySuggestion]]];
+    [m_status setText:[NSString stringWithFormat:@"页面加载失败，请检查网络连接！"]];
 }
 
 @end
