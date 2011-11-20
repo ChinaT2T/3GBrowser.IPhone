@@ -13,7 +13,8 @@
     IBOutlet UIWebView *m_webView;
     IBOutlet UITextField *m_addressBox;
     IBOutlet UIActivityIndicatorView *m_loadingIndication;
-    IBOutlet UILabel *m_status;
+    //IBOutlet UILabel *m_status;
+    IBOutlet UIImageView *m_errorImg;
 
     NSString * m_htmlString;
     NSString * m_homeUrl;

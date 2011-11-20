@@ -7,12 +7,13 @@
 //
 
 #import "_GBrowserViewController.h"
-
+ 
 @implementation _GBrowserViewController
 
 - (void)dealloc
 {
-    [m_status release];
+    //[m_status release];
+    [m_errorImg release];
     [super dealloc];
 }
 
@@ -31,7 +32,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    m_status.hidden = TRUE;
+    //m_status.hidden = TRUE;
+    m_errorImg.hidden = TRUE;
     m_homeUrl = @"http://m.3gcoo.net/index.htm#aa";
     m_searchUrl = @"http://m.3gcoo.net/i.jsp?st=1&wd=%@";
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
@@ -54,8 +56,12 @@
     m_loadingIndication = nil;
     [m_addressBox release];
     m_addressBox = nil;
-    [m_status release];
-    m_status = nil;
+    //[m_status release];
+    [m_errorImg release];
+    m_errorImg = nil;
+    //m_status = nil;
+    [m_errorImg release];
+    m_errorImg = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -144,7 +150,8 @@
 
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
-    m_status.hidden = TRUE;
+    //m_status.hidden = TRUE;
+    m_errorImg.hidden = TRUE;
     NSLog(@"webViewDidStartLoad");
     [m_loadingIndication startAnimating];
     
@@ -152,15 +159,32 @@
 - (void)webViewDidFinishLoad:(UIWebView *)view
 {
     NSLog(@"webViewDidFinishLoad");
-    m_status.hidden = TRUE;
+    //m_status.hidden = TRUE;
+    m_errorImg.hidden = TRUE;
     [m_loadingIndication stopAnimating];
 }
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
     NSLog(@"webView didFailLoadWithError");
     [m_loadingIndication stopAnimating];
-    m_status.hidden = FALSE;
-    [m_status setText:[NSString stringWithFormat:@"加载页面错误:\n    %@\n建议:\n    %@", [error localizedDescription], [error localizedRecoverySuggestion]]];
+    //m_status.hidden = FALSE;
+    m_errorImg.hidden = FALSE;
+    NSString * msg=@"未知错误,请联系开发者。";
+    switch (error.code)
+    {
+        case -1009:
+            msg = @"无法连接到网络，请检查网络连接";
+            break;
+        default:break;
+    }
+    UIAlertView *alert =[[UIAlertView alloc]initWithTitle:[NSString stringWithFormat:@"错误 %d", error.code]
+                                                 message:msg
+                                                delegate:self 
+                                       cancelButtonTitle:@"确定"
+                                       otherButtonTitles:nil];
+    [alert show];
+    [alert release];
+    //[m_status setText:msg];
 }
 
 @end
